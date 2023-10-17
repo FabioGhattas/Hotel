@@ -360,22 +360,7 @@ if controllo==1:
 	indirizzo=r"C:\Users\fabio\Desktop\\"
 else:
 	indirizzo='/Users/Locanda/Desktop/'
-#mese_oggi=mese_string_email(int(str(date.today())[5]+str(date.today())[6]))
-#data_oggi=str(date.today())[8]+str(date.today())[9]+ "-" + mese_oggi \
-#+ "-" + str(date.today())[0]+str(date.today())[1]+str(date.today())[2]+str(date.today())[3]
-#f=open(r"C:\Users\fabio\Desktop\data.txt", 'r')
-#data_ultima_mail=f.read()
-#f.close()
-#f=open(r"C:\Users\fabio\Desktop\data.txt", 'w')
-#f.write(data_oggi)
-#f.close()
-#print(data_oggi)
-#wb = load_workbook(indirizzo+ 'PLANNING LOCANDA.xlsx')
-#try:
-#	wb.save(indirizzo+ 'PLANNING LOCANDA.xlsx')
-#except:
-#	print("Vi siete dimenticati di chiudere il planning")
-#	sys.exit()
+
 link=[]
 nome=[]
 arrivo=[]
@@ -385,8 +370,8 @@ ricevuto=[]
 stanze_totali=[]
 pagato=[]
 controllore=0
-username="fabioghattasmit@gmail.com"
-password="TriforcePower1"
+username="" #Username erased for privacy
+password="" #password erased for privacy
 imap = imaplib.IMAP4_SSL('imap.gmail.com')
 imap.login(username, password)
 imap.select('inbox')
