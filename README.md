@@ -1,3 +1,3 @@
 # Hotel
-Writing new hotel reservation in Excel file
+Writing new hotel reservations in Excel file.
 This was my very first programming project
